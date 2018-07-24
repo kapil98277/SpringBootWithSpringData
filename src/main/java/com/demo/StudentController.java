@@ -18,7 +18,7 @@ public class StudentController {
 
 	@RequestMapping("/")
 	public String get() {
-		return "Hello spring";
+		return "Hello spring Ehi";
 	}
 	
 	@RequestMapping(value="/getStudent", method = RequestMethod.GET)
